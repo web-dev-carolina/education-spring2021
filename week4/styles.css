@@ -1,0 +1,56 @@
+/*This styles the body of the entire page by giving it a gray background color*/
+body { 
+    background-color: rgb(220, 220, 220) 
+  }
+  
+  /* This styles every element in the HTML where the class = "row". (The period before
+    the word row indicates we are looking for the class = "row", if there were no period,
+    it would be looking for a tag that looks like <row> 
+    
+    If you want to style more elements like this, simply add class="row" to their HTML start tag!
+    You can also play around with the margins, border, background color, text color, font size,
+    font weight, and anything else you might find interesting!
+    */
+  .section {
+    margin-top: 3vh;
+    border: solid 2px grey;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: rgb(136,211,255);
+    padding: 1vw;
+  }
+
+  #john-photo, #john-computer-photo{
+      width: 25vw;
+      border-radius: 10px;
+      border: thick solid rgb(116, 191, 235);
+  }
+
+  #about-paragraph, #hobby-paragraph{
+      margin-top: 4vw;
+  }
+
+  .experience{
+      border: thick solid rgb(116, 191, 235);
+      background-color: rgb(220, 220, 220);
+      border-radius: 10px; /* This rounds the corners */
+      margin: 1vw;
+      padding: 1vw;
+  }
+
+  .fa-linkedin, .fa-facebook-square, .fa-github-square{
+      margin-top: 2.5vw;
+      font-size: 5vw;
+  }
+
+  a{
+      color: black;
+  }
+
+  .footer{
+      background-color: rgb(116, 191, 235);
+      margin-top: 2vw;
+      height: 10vw;
+      border-top: medium solid grey;
+  }
